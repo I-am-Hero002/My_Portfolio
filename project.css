@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.fox_img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fox_img img {
+  width: 500px;
+  filter: contrast(120%), brightness(110%);
+  margin-bottom: 80px;
+  margin-right: 50px; 
+}
+
+.fox_img span {
+  font-family: 'Silkscreen', sans-serif;
+  letter-spacing: 3px;
+  margin-top: -30px;
+}

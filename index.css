@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+:root {
+  --black: #222222;
+  --grey: #333333;
+  --grey_white: #bbbbbb;
+  --white: #FBFBFB;
+  --green: #b3f0aa;
+  --purple: #a259ff;
+  --orange: #FF693A;
+}
+
+.main .name {
+  position: fixed;
+  right: 70px;
+  width: 300px;
+  margin-top: 250px;
+}
+
+.main img {
+  width: 500px;
+  position: fixed;
+  top: 350px;
+  left: 50%;
+  transform: translate(0,-50%);
+  filter: brightness(120%);
+}
+
+.main .name .clip {
+  background: var(--orange);
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  rotate: -45deg;
+  clip-path: polygon(34% 27%, 67% 54%, 100% 37%, 100% 78%, 60% 100%, 21% 70%, 0 82%, 0 50%);
+  margin: -170px 0 0 -40px;
+}
+
+.main .name span {
+  font-size: 45px;
+  position: relative;
+  left: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Silkscreen', sans-serif;
+}
+
+.main .about {
+  position: fixed;
+  width: 580px;
+  margin: 200px 0 0 50px;
+}
+
+.main .about .big {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.main .about p {
+  font-size: 20px;
+  margin-top: -15px;
+  width: 515px;
+}
+
+.main .about p a svg {
+  fill: #FF1616;
+}
+
+ .main .about .p {
+  margin-top: 10px;
+  width: 650px;
+ }
+ 
+.main .about .about_me {
+  font-size: 35px;
+  font-weight: bold;
+  display: block;
+}
