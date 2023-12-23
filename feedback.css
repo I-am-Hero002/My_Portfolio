@@ -4,11 +4,10 @@
 
 
 .container {
-  position: relative;
-  top: 50%;
+  position: fixed;
   left: 50%;
-  transform: translate(-50%,-50%);
-  margin-top: 50px;
+  transform: translateX(-50%);
+  margin-top: 105px;
   display: flex;
   align-items: center;
   background: #6A67FF;
